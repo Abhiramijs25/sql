@@ -2,7 +2,7 @@ CREATE TABLE Students(
     student_id INT PRIMARY KEY,
     Student_name VARCHAR(100),
     student_email TEXT,
-unique(student_email);
+unique(student_email); 
 );
 CREATE TABLE Courses(
     course_id INT PRIMARY KEY,
